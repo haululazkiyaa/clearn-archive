@@ -1,0 +1,38 @@
+.cust__bg_primary {
+  background-color: #f8a400;
+}
+
+.cust__bg_secondary {
+  background-color: #fefbf5;
+}
+
+.cust__text_primary {
+  color: #f8a400;
+}
+
+.cust__btn-outline-yellow {
+  border: solid 1px #f8a400;
+  color: #f8a400;
+}
+
+.cust__nav > a:hover {
+  border-bottom: solid 3px #ffffff;
+}
+
+.cust__nav > .cust__active {
+  border-bottom: solid 3px #ffffff;
+}
+
+.cust__hero {
+  width: 100%;
+  max-width: 500px;
+}
+
+.cust__arrow {
+  font-size: 24px;
+}
+
+.cust__about {
+  width: 100%;
+  max-width: 300px;
+}

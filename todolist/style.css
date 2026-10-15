@@ -1,0 +1,60 @@
+/* 
+Muhammad Haulul Azkiyaa 
+Cheva Lab 2024/03/04
+*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.box {
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 100px;
+}
+
+.box .container input,
+.box .container button {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.box .container button {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.box ul {
+  padding: 0;
+}
+
+.box ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box ul li p {
+  flex-grow: 1;
+}
+
+h1 {
+  text-align: center;
+}
